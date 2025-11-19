@@ -1,23 +1,39 @@
-# nodejs-app-mss
+# Clark University Cloud Computing Final Project
 
-To start this application first you can get this repo code using below url
+## Project Overview
+This is a cloud computing course project demonstrating:
+- AWS EC2 deployment
+- Docker containerization
+- Node.js web application
+- DevOps practices
 
-git clone https://github.com/MithunTechnologiesDevOps/nodejs-app-mss.git
+## Live Demo
+Access the application at: http://98.92.78.49:9981/clarku-demo
 
-cd nodejs-app-mss
+## Technologies Used
+- AWS EC2
+- Docker
+- Node.js & Express.js
+- Linux (Amazon Linux 2023)
 
+## Setup Instructions
+```bash
+git clone https://github.com/vamsireddy1998/cloud-computing-final-project.git
+cd cloud-computing-final-project
 npm install
+node app.js
+```
 
-node app.js 
+## Docker Deployment
+```bash
+docker build -t clarku-app .
+docker run -p 9981:9981 clarku-app
+```
 
-(OR) 
+## Project Features
+- Professional Clark University landing page
+- Containerized deployment
+- Cloud infrastructure on AWS
 
-npm start
-
-To Execute the SonarQube Repor, execute the below command.
-
-npm run sonar
-
-(OR) 
-
-node sonar-project.js
+## Course: Cloud Computing
+**Clark University** - Demonstrating modern cloud technologies.
