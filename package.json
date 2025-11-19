@@ -24,12 +24,12 @@
     "url": "https://github.com/vamsireddy1998/cloud-computing-final-project"
   },
   "keywords": [
-    "node",
     "clark university",
     "cloud computing",
     "aws",
-    "docker"
+    "docker",
+    "node.js"
   ],
-  "author": "Your Name - Clark University Student",
+  "author": "Clark University Student - Cloud Computing Course",
   "license": "MIT"
 }
